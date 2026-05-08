@@ -9,18 +9,18 @@ const features = [
 
 export default function Featured() {
   return (
-    <div id="features" className="min-h-screen px-6 py-20 bg-[#0a0a0f]">
+    <div id="features" className="min-h-screen px-6 py-20 bg-black">
       <div className="max-w-6xl mx-auto">
-        <h3 className="uppercase mb-4 text-sm tracking-widest text-yellow-400">Почему именно мы</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-widest text-blue-500">Почему именно мы</h3>
         <p className="text-3xl lg:text-5xl mb-16 text-white leading-tight font-bold max-w-2xl">
           Всё, что делает RP-игру настоящей — уже здесь.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((f) => (
-            <div key={f.title} className="border border-neutral-800 p-6 hover:border-yellow-400 transition-colors duration-300">
+            <div key={f.title} className="border border-blue-900 bg-blue-950/20 p-6 hover:border-yellow-400 hover:bg-yellow-400/5 transition-colors duration-300">
               <div className="text-3xl mb-4">{f.icon}</div>
-              <h4 className="text-white font-bold uppercase tracking-wide mb-2">{f.title}</h4>
-              <p className="text-neutral-400 text-sm leading-relaxed">{f.desc}</p>
+              <h4 className="text-yellow-400 font-bold uppercase tracking-wide mb-2">{f.title}</h4>
+              <p className="text-white/70 text-sm leading-relaxed">{f.desc}</p>
             </div>
           ))}
         </div>

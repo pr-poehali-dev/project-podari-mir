@@ -25,14 +25,15 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white px-6">
+      <div className="absolute inset-0 bg-black/30 z-[1]" />
+      <div className="relative z-10 text-center px-6">
         <div className="inline-block border border-yellow-400 text-yellow-400 text-xs uppercase tracking-widest px-4 py-1 mb-6">
           Nebraska RP • SA:MP
         </div>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 uppercase">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 uppercase text-white drop-shadow-lg">
           NEBRASKA RP
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-white/90 drop-shadow">
           Живой мир, реальные истории. Стань частью крупнейшего ролевого сервера на платформе SA:MP — тысячи игроков, уникальная экономика и настоящий RP-опыт.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -44,7 +45,7 @@ export default function Hero() {
           </a>
           <a
             href="#features"
-            className="border border-white text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-white hover:text-black transition-colors duration-300"
+            className="border-2 border-blue-500 text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-blue-500 hover:text-white transition-colors duration-300"
           >
             О сервере
           </a>
