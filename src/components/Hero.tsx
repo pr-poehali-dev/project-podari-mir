@@ -27,10 +27,10 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white px-6">
         <div className="inline-block border border-yellow-400 text-yellow-400 text-xs uppercase tracking-widest px-4 py-1 mb-6">
-          Online RP • SA:MP
+          Nebraska RP • SA:MP
         </div>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 uppercase">
-          GRAND RP
+          NEBRASKA RP
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
           Живой мир, реальные истории. Стань частью крупнейшего ролевого сервера на платформе SA:MP — тысячи игроков, уникальная экономика и настоящий RP-опыт.
