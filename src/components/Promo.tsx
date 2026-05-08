@@ -25,13 +25,27 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 right-6 text-yellow-400 uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
+        Онлайн прямо сейчас
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+      <div className="absolute left-6 top-1/2 -translate-y-1/2 z-10 flex flex-col gap-6">
+        <div className="text-center">
+          <div className="text-4xl md:text-6xl font-bold text-white">1 200+</div>
+          <div className="text-yellow-400 uppercase text-xs tracking-widest mt-1">Игроков онлайн</div>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl md:text-6xl font-bold text-white">50+</div>
+          <div className="text-yellow-400 uppercase text-xs tracking-widest mt-1">Фракций</div>
+        </div>
+        <div className="text-center">
+          <div className="text-4xl md:text-6xl font-bold text-white">5 лет</div>
+          <div className="text-yellow-400 uppercase text-xs tracking-widest mt-1">На рынке</div>
+        </div>
+      </div>
+
+      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl z-10 text-right">
+        Твоя история начинается здесь. Войди — и стань легендой Grand RP.
       </p>
     </div>
   );
